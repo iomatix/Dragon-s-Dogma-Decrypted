@@ -1,4 +1,4 @@
-# Dragon-s-Dogma-Decrypted
+### Dragon-s-Dogma-Decrypted
 **Contains decrypted information about the classes of the Dragon's Dogma video game.**
 
 ## This resource is intended for the modder's community of the Dragon's Dogma only. 
