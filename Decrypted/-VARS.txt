@@ -1,0 +1,131 @@
+--------- Base
+isTimeDie - if true the particle will disappear after "dieFrame" Frames. 
+dieFrame - when isTimeDie is set to true, after dieFrame frames (1 frame = 1/30 sec) element is destroyed.
+---------  Range
+modelDrawMode - default 1
+spd - starting speed 
+spdMax - max speed (It's upper or lower limit)
+spdAccel - acceleration (May be negative)
+gravity - starting gravity force
+gravityMax - max gravity (it's upper or lower limit)
+gravityAccel - gravity acceleration after reaching "gravityDist" value.
+gravityDist - Distance. After reaching this value gravityAccel is implied. 
+dieDist - Distance. Element is destroyed after reaching this value. (disappear)
+
+
+isAutoLockon - if true the particle will follow the nearest enemy foe.
+lockonDist - Distance after the foe will be autoLocked and targetet by the particle. Default 3000~5000
+lockonDeg - degrees of the lock. [-1 = 360 degrees, 180 = everything excluding behind the particle] Default 60~90
+lockon option - [?] Default 0
+
+homingSeDeg - That degree decides about turning radius when homing. Default 30 
+more options starts with "hm" for example hmgEndTargetDist, homing missile stops following the enemy after that distance.
+
+--------- Particle Behaviour 
+isFuwaMove - particle animating, allows to use Fuwa Options.
+
+
+
+
+isPadCtrl - Allows to control patricles if true.
+ctrlDist - Distance when particle stops being controlable
+camNoCtrlEndDist - default 54
+camNoCtrlEndObjHit - default 50
+camNoCtrlEndScrHit - default 51
+
+shlNo(?) - allows to costumize skills sequence.  /skills chains
+
+--------- Area Effects
+isAbsorb - if true area skill will pull enemies to the center of it.
+absorbMargin - default 150
+akbsorbSpeed - speed, default 30.
+absorbRadius - ? default 0.
+isAbsorbDistDumping - Dumping, not tested.
+
+isStaminaHealPlCmc - if true the area effect will regen a allies stamina.
+staminaHealRadius - Radious (Should stick the area effect border.) default 1000
+staminaHealValue - How many stamina points should be regen at 1 frame/second [Not sure]. 
+isStaminaHealZOG3 - [???] It's default false even if vanilla skill has HealPlCmc = true.
+
+isLockOnTarget - if true The Areaeffect will face nearest foe or ally who attacked the area. (Magic Cannon is using that to generate missiles in the correct direction)
+
+isResetShlDie - If true, When skill is recasted than old particle/area-effect is destroyed.
+isShlDieNoHit - If true, The effect is destroyed even if wasn't be hit. (Default True for isResetShlDie)
+maxShlSetNum - Maximum of the effects. (Default -1)
+
+--------- Addons 
+scale - param affects size of the particle.
+isRestrict - true to adjust below options (effects will apply if target and the wall is affected)
+restrictEndFrameWallHit - endframe default progress 240->480->720 (8sec up to 24 sec)
+isRestrictWallSuccess - strike in walls is Deg?
+restrictWallSuccessDeg - degrees default 60
+colSeqNoRestrictWallHit - defualt 24
+repelledDist - distance from what you can deflect an attack - default 3000 <-> 3500
+isSetFloorHitArrow - It may be somehow  connected with restriction.
+floorHitArrowHeightRnd - random or rounded value ?
+
+elementRate - How many the element power points the buff will prove.
+magicAtckAdd - How many magic points the buff will prove.
+enchantTime - time in seconds. Max 255, don't go over that value!
+efctEndTime - next timer, extends the duration after enchantTime. Max 225, don't go over that value!
+
+effectiveFrame - time in frames. (30 frames = 1 second)
+hitEfctTime - how long the effect will be more visible after hit. 
+guardEfctWait - after that time buff will be effective when in guard stance.
+
+
+oneTargetLockOnNum - How many meteors will be affected on target locking.
+
+--- Var types:
+f32 - float 32 bits
+u32 - uint 32  bits 
+bool - boolean 1 bit 
+s32 - int 32 bits (or string enum) 
+//same with 16 but 16 bits that means the variable will hold only half maximum capacity of the 32 bit vars.
+//16 bit short(int): −32 768 — +32 767 , 0 — +65 535 
+//32 bit int:   −2 147 483 648 — +2 147 483 647  , 0 — +4 294 967 295
+//NOTE: Floats work different. Devs decided about floats precision, some are 0-255, some are -128 - 127 etc with more zeroes. If you reach maximum border the var will be set as 0 or -1 (where -1 is down border of the variable) so game engine behaves like infinity effect or crash. 
+--------- Class TYPES:
+<classref type="599489084"> - Skill Container for effect and audio paths, and list of skills
+<classref type="1897090369"> - Skills list type
+<classref type="96962053"> - Area Effects
+<classref type="1605883267"> - Area Effects 
+<classref type="1143898572"> - Arrows
+<classref type="1085265802"> - Magick Archer's Arrows 
+<classref type="1774765177"> - Magic missiles 
+<classref type="322932996"> - Magic missiles 
+<classref type="303081728"> - Magic, circle effect 
+<classref type="1244791277"> - Magic, circle defect
+<classref type="1875285741"> - Lightning
+<classref type="51790539"> - Frigor 
+<classref type="893409769"> - Frigor's Ice Slop
+<classref type="748698913"> - Fire wall 
+<classref type="1723301930"> - Gicel
+<classref type="1661798727">  - Whip
+<classref type="1430265942"> - Grapnel
+<classref type="774173229"> - Exequy
+<classref type="200227114"> - Healing effect 
+<classref name="mpArray" type="534483943"> - Whip Force 
+<classref type="656387277"> - Meteors
+<classref type="555618181"> - The Meteor
+<classref type="1758512158"> - Shield guard  
+<classref type="761936815"> - Enhantment
+<classref type="181981545"> - Sword buff effect
+<classref type="608257511"> - passive augument skill 
+<classref type="403594317"> - marker (cast indicator/cursor)
+
+
+
+<class name="paramWait" type="1897090369"> - wait
+
+
+
+			
+
+
+
+
+
+
+
+<classref type="1723301930"> ? - Area Particles (like seizm)

@@ -1,0 +1,93 @@
+***** Bow bow.acr *****
+
+-----------------MAP - TABLE------------
+[name] - [line]
+Light Attack - 19
+Threefold Arrow - 181
+Triad Shot - 491
+Full Bend - 801
+Cloudburst Volley - 1609
+Splinter Dart - 2629
+Whistle Dart - 3780
+-----------------
+Keen Sight - 4228 
+Puncture Dart - 4685
+Blunting Arrow - 4995
+-------^ASSASSIN^------------- 
+----------------------------------------
+
+LIGHT ATTACK (STRIDER)
+<string value="effect\epv\pl\p_pl_bow"/>
+<string value="sound\se\wep\bow_com\wep_bow_com"/>
+<classref name="mpArray" type="1143898572"> (Arrow 19 line(same class is used in longbows) )
+
+THREEFOLD ARROW (STRIDER)
+<string value="effect\epv\pl\p_pl_bow"/>
+<string value=""/> - blank values explained at LongBow-PARAMS.txt
+<string value="sound\se\cstm\dgr\rensa\cstm_dgr_rensa"/>
+<string value=""/>
+<classref type="1143898572"> (Arrow 181 line) 
+Upgrade 1: line: 328 
+
+TRIAD SHOT (STRIDER)
+<string value="effect\epv\pl\p_pl_bow"/>
+<string value=""/> - blank sound 
+<classref type="1143898572"> (Arrow 491 line)
+Upgrade 1: line: 638
+
+FULL BEND (STRIDER)
+<string value="effect\epv\pl\p_pl_bow"/>
+<string value="sound\se\cstm\bow\tame\cstm_bow_tame"/>
+<classref type="1143898572"> (Arrow 801 line)
+type="1605883267"> (Areaeffect line: 948)
+Upgrade 1: line: 1017
+Upgrade 2: line: 1233
+
+CLOUDBURST VOLLEY (STRIDER)
+<string value="effect\epv\pl\p_pl_bow"/>
+<string value="sound\se\cstm\bow\amaya\cstm_bow_amaya"/>
+type="1723301930"> is particles like arrows rain (keeps some offsets inside type="1897090369"> arrows rain)
+<classref type="1143898572"> (Arrow 1609)
+Upgrade 1: line: 1955
+Upgrade 2: line: 2466
+
+SPLINTER DART (STRIDER)
+<string value="effect\epv\pl\p_pl_bow"/>
+<string value="sound\se\cstm\bow\chokujou\cstm_bow_chokujou"/>
+<classref type="1143898572"> (Arrow 2629)
+type="1723301930"> is class with additional particles like arrows rain.
+type="1605883267"> is area effect 
+Upgrade 1: line: 3158
+
+WHISTLE　DART　(STRIDER)
+<string value="effect\epv\pl\p_pl_bow"/>
+<string value="sound\se\cstm\bow\yaoto\cstm_bow_yaoto"/>
+<classref type="1143898572"> (Arrow 3780)
+type="913640225"> - ?
+Upgrade 1: line: 3996
+
+ASSASSIN UNIQUE:
+
+KEEN SIGHT (ASSASSIN)
+<string value="effect\epv\pl\p_pl_bow"/>
+<string value="sound\se\cstm\bow\shouon\cstm_bow_shouon"/> (Arrow line: 4228)
+Upgrade 1: line: 4375
+Upgrade 2: line: 4522
+
+PUNCTURE DART (ASSASSIN)
+<string value="effect\epv\pl\p_pl_bow"/>
+<string value="sound\se\cstm\bow\kantsuu\cstm_bow_kantsuu"/>
+<classref type="1143898572"> (Arrow 4685)
+Upgrade 1: Line: 4832
+
+BLUNTING ARROW (ASSASSIN)
+<string value="effect\epv\pl\p_pl_bow"/>
+<string value="sound\se\cstm\bow\masshou\cstm_bow_masshou"/>
+<classref type="1143898572"> (Arrow 4995)
+Upgrade 1: Line: 5142
+
+??????????????? lines 5305 - 5672 ??????????????
+
+by iomatix - 2019 
+https://www.nexusmods.com/users/67232281 For 
+https://www.nexusmods.com/dragonsdogma/mods/471

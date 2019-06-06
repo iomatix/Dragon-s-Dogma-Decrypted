@@ -1,0 +1,133 @@
+﻿***** Mace mac.acr *****
+
+-----------------MAP - TABLE------------
+[name] - [line]
+Firecounter - 20
+Icecounter - 1577 
+Thundercounter - 2920
+Holycounter - 4322
+Darkcounter - 5619
+
+Fire Enchanter - 6772 (6698)
+Ice Enchanter - 7412 (7338)
+Thunder Enchanter - 8052 (7978)
+Holy Enchanter - 8692 (8618)
+Dark Enchanter - 9332 (9258)
+
+Holy Glare - 9898
+Dark Anguish - 11787
+Magic Shield - 12205
+Demonspite - 12325
+Holy Aid - 12833
+----------------------------------------
+
+
+Firecounter
+<string value="effect\epv\pl\p_pl_bsd_011"/> No effect type
+<string value="sound\se\cstm\shld_mg\fire\cstm_shld_mg_fire"/>
+<classref type="1758512158"> (Shield blocking type) line 20
+type="322932996"> (Missiles type) line 266 
+type="1774765177"> (Missiles type)
+type="1605883267"> (Area effects)
+Upgrade 1: line: 437 
+Upgrade 2: line: 988
+
+Icecounter
+<string value="effect\epv\pl\p_pl_bsd_013"/>
+<string value="sound\se\cstm\shld_mg\ice\cstm_shld_mg_ice"/>
+<classref type="1758512158"> (Shield blocking type) line 1577
+Upgrade 1: line: 1892
+Upgrade 2: line: 2387
+
+Thundercounter
+<string value="effect\epv\pl\p_pl_bsd_015"/>
+<string value="sound\se\cstm\shld_mg\light\cstm_shld_mg_light"/>
+Upgrade 1: line: 3349
+Upgrade 2: line: 3811
+
+Holycounter
+<string value="effect\epv\pl\p_pl_bsd_017"/>
+<string value="sound\se\cstm\shld_mg\holy\cstm_shld_mg_holy"/>
+<classref type="1758512158"> line 4322
+Upgrade 1: line: 4670
+Upgrade 2: line: 5129
+
+Darkcounter
+<string value="effect\epv\pl\p_pl_bsd_019"/>
+<string value="sound\se\cstm\shld_mg\dark\cstm_shld_mg_dark"/>
+<classref type="1758512158"> line 5619
+Upgrade 1: line: 5941
+Upgrade 2: line: 6256
+------
+Fire Enchanter
+<string value="effect\epv\pl\p_pl_bsd_001"/>
+<string value="sound\se\mgc\mgc_pl_en_fire\mgc_pl_en_fire"/>
+<classref type="761936815"> line 6772
+Upgrade 1: line: 6980
+Upgrade 2: line: 7188
+
+Ice Enchanter
+<string value="effect\epv\pl\p_pl_bsd_003"/>
+<string value="sound\se\mgc\mgc_pl_en_ice\mgc_pl_en_ice"/>
+<classref type="761936815"> (Enhantment type) line 7412
+Upgrade 1: line: 7620
+Upgrade 2: line: 7828
+
+Thunder Enchanter
+<string value="effect\epv\pl\p_pl_bsd_005"/>
+<string value="sound\se\mgc\mgc_pl_en_thunder\mgc_pl_en_thunder"/>
+<classref type="761936815"> line 8052
+Upgrade 1: line: 8260
+Upgrade 2: line: 8468
+ 
+Holy Enchanter 
+<string value="effect\epv\pl\p_pl_bsd_007"/>
+<string value="sound\se\mgc\mgc_pl_en_holy\mgc_pl_en_holy"/>
+<classref type="761936815"> line 8692
+Upgrade 1: line: 8900
+Upgrade 2: line: 9108
+
+Dark Enchanter
+<string value="effect\epv\pl\p_pl_bsd_009"/>
+<string value="sound\se\mgc\mgc_pl_en_dark\mgc_pl_en_dark"/>
+<classref type="761936815"> line 9332
+Upgrade 1: line: 9640
+Upgrade 2: line: 9748
+------
+Holy Glare
+<string value="effect\epv\pl\p_pl_bsd_021"/>
+<string value="sound\se\cstm\shld_mg\hikari\cstm_shld_mg_hikari"/>
+<classref type="1244791277"> (Area effect) line 9898
+Upgrade 1: line: 10588
+Upgrade 2: line: 11278
+----------------------------------------
+Dark Anguish
+<string value="effect\epv\pl\p_pl_bsd_023"/>
+<string value="sound\se\cstm\shld_mg\sword\cstm_shld_mg_sword"/>
+<classref type="181981545"> - (Sword buff effect type) line 11787
+Upgrade 1: 11932
+
+Magic Shield
+<string value="effect\epv\pl\p_pl_bsd_025"/>
+<string value="sound\se\cstm\shld_mg\shield\cstm_shld_mg_shield"/>
+<classref type="1758512158"> line 12093
+Upgrade 1: line: 12201 
+
+Demonspite
+<string value="effect\epv\pl\p_pl_bsd_027"/>
+<string value="sound\se\cstm\shld_mg\g_atck\cstm_shld_mg_g_atck"/>
+<classref type="1758512158"> 12325
+Upgrade 1: line: 12571 
+
+Holy Aid
+<string value="effect\epv\pl\p_pl_bsd_029"/>
+<string value="sound\se\cstm\shld_mg\g_heal\cstm_shld_mg_g_heal"/> 
+<classref type="1758512158"> line 12833
+Upgrade 1: line: 12941
+
+
+???? - line 13065
+
+by iomatix - 2019 
+https://www.nexusmods.com/users/67232281 For 
+https://www.nexusmods.com/dragonsdogma/mods/471

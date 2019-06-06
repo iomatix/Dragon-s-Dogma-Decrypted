@@ -1,0 +1,58 @@
+﻿***** Mace mac.acr *****
+
+-----------------MAP - TABLE------------
+[name] - [line]
+??? - 20
+Magic Cannon - 390
+Funnel Sigil - 1464 
+Stone Forest - 1771
+Perilous Sigil - 3446
+??? - 4639
+----------------------------------------
+
+
+IMPORTANT NOTE: IF YOU WANT TO CHANGE MACE SKILLS YOU HAVE TO REMEMBER TO CHANGE SWORD SKILLS THE SAME AS IT.  (Mystick Knight only)
+
+[???]
+<string value=""/> No effect type
+<string value="sound\se\cstm\swd\hakai\cstm_swd_hakai"/>
+<classref type="1066224104"> [????] line 20
+<classref type="1066224104"> [????] line 90
+<classref type="322932996"> [????] line 170
+<classref type="322932996"> [????] line 272
+
+Magic Cannon
+<string value=""/> No effect type
+<string value="sound\se\cstm\swd\houdai\cstm_swd_houdai"/> //SAME AS MAGIC CANNON FOR SWORDS
+<classref type="96962053"> (Area effect, The Cannon) line 390 
+Upgrade 1: line 487   
+<classref type="322932996"> ?? (Same class as in Staffs/Archstaffs particles Ingle uses it)
+<classref type="1723301930"> ?? (Meele?) (Same class as in Staffs/Archstaffs particles)
+<classref type="1774765177"> Launched Particles (Same class as Staffs/Archstaffs particles light attack uses it)
+
+
+Funnel Sigil 
+<string value="sound\se\cstm\swd\kyuuinjin\cstm_swd_kyuinjin"/>
+<classref type="96962053"> (Area effect) line 1464
+Upgrade 1: line: 1561
+Upgrade 2: line: 1658
+
+Stone Forest
+
+<string value="sound\se\cstm\swd\yari\cstm_swd_yari"/>
+<classref type="1723301930"> line 1771
+type="1605883267"> - Area Effect 
+Upgrade 1: line: 1937
+Upgrade 2: line: 2743
+
+Perilous Sigil
+<string value="sound\se\cstm\swd\kaen\cstm_swd_kaen"/>
+<classref type="342266686"> line 3446
+
+??? 
+<string value=""/>
+<classref type="1605883267"> line 4639
+
+by iomatix - 2019 
+https://www.nexusmods.com/users/67232281 For 
+https://www.nexusmods.com/dragonsdogma/mods/471

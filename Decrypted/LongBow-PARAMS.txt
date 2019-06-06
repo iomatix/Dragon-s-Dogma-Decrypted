@@ -1,0 +1,108 @@
+***** Longbow bbw.acr *****
+
+-----------------MAP - TABLE------------
+[name] - [line]
+Light Attack - 19
+Sixfold Arrow - 181
+Heptad Shot - 491
+Dire Arrow - 801
+Foot Binder - 3022
+Invasive Arrow - 3893
+Flying Din - 4203
+Meteor Shot - 4651 
+Whirling Arrow - 4961
+Gamble Draw - 5731
+----------------------------------------
+LIGHT ATTACK 
+<string value="effect\epv\pl\p_pl_bbw"/>
+<string value="sound\se\wep\bow_com\wep_bow_com"/>
+<classref name="mpArray" type="1143898572"> (Arrow 19 line(same class is used in shortbows) )
+
+SIXFOLD ARROW
+<string value="effect\epv\pl\p_pl_bbw"/>
+<string value=""/> Blank space for effect 
+<string value=""/> It dosen't have a sound file connection but sound works. - ?
+Maybe it's associeted with variable declaration and that's empty and filling with game engine.
+<classref type="1143898572"> (Arrow 181 line) 
+Upgrade 1: line: 328
+
+HEPTAD SHOT
+<string value="effect\epv\pl\p_pl_bbw"/>
+<string value=""/> - effect declaration ?
+<string value=""/> - sound 1 declaration ?  
+<string value=""/> - sound 2 declaration ?  
+<classref type="1143898572"> (Arrow 491 line) 
+Upgrade 1: line: 638 
+
+DIRE ARROW
+<string value="effect\epv\pl\p_pl_bbw"/>
+<string value=""/>
+<string value="sound\se\cstm\bbw\hakai\cstm_bbw_hakai"/>
+<string value=""/>
+<classref type="1143898572"> (Arrows Lines: 801,948...2712,2859)
+Note: Each represent different stretching time. Hopfuly to be in order from weakest to the best.
+ 
+FOOT BINDER
+<string value="effect\epv\pl\p_pl_bbw"/>
+<string value=""/>
+<string value="sound\se\cstm\bbw\kousoku\cstm_bbw_kousoku"/>
+<string value=""/>
+<classref type="1143898572"> (Arrow: line: 3022)
+type="1605883267"> (Areaeffect) (guess it is 3316,3385 for non-upgraded)
+Upgrade 1: line: 3169   (guessing Areaeffect 3454, 3523)
+Upgrade 2: line: 3592 (Areaeffect 3739, 3808)
+
+INVASIVE ARROW 
+<string value="effect\epv\pl\p_pl_bbw"/>
+<string value=""/>
+<string value="sound\se\cstm\bbw\hyoumen\cstm_bbw_hyoumen"/>
+<string value=""/>
+<classref type="1143898572"> (Arrow: line: 3893)
+Upgrade 1: line: 4040
+
+FLYING DIN
+<string value="effect\epv\pl\p_pl_bbw"/>
+<string value=""/>
+<string value="sound\se\cstm\bbw\bakuon\cstm_bbw_bakuon"/>
+<string value=""/>
+<classref type="1143898572"> (Arrow line: 4203)
+type="1605883267"> (Area effect line: 4350)
+Upgrade 1: line: 4419, (Areaeffect line: 4566)
+
+METEOR SHOT
+<string value="effect\epv\pl\p_pl_bbw"/>
+<string value=""/>
+<string value="sound\se\cstm\bbw\ryusei\cstm_bbw_ryusei"/> 流星　<- Meteor 
+<string value=""/>
+<classref type="1143898572"> (Arrow line: 4651)
+Upgrade 1: 4798
+
+WHIRLING ARROW
+<string value="effect\epv\pl\p_pl_bbw"/>
+<string value=""/>
+<string value="sound\se\cstm\bbw\kussaku\cstm_bbw_kussaku"/>
+<string value=""/>
+<classref type="1143898572"> (Arrow line: 4961)
+type="1723301930"> is ?
+Upgrade 1: line: 5421 / 5108
+
+GAMBLE DRAW
+<string value="effect\epv\pl\p_pl_bbw"/>
+<string value="sound\se\cstm\bbw\kyukyoku\cstm_bbw_kyukyoku"/>
+<classref type="1143898572"> (Arrow: line: 5731)
+type="1605883267"> (Area Effect: line: 5878)
+Upgrade 1: line: 5947
+
+???????
+<string value="effect\epv\pl\p_pl_bbw"/>
+<string value=""/> - no sound file's there 
+type="1605883267"> - area effect 
+type="1591715104"> -> ? 
+Next Areaeffect at line: 6330
+<classref type="1143898572"> (arrow line 6399)
+Upgrade 1: line: 6546 
+
+			
+by iomatix - 2019 
+https://www.nexusmods.com/users/67232281 For 
+https://www.nexusmods.com/dragonsdogma/mods/471

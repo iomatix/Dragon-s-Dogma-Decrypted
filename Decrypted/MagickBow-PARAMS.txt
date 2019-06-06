@@ -1,0 +1,102 @@
+***** MAGIC ARCHER mbw.acr *****
+
+-----------------MAP - TABLE------------
+[name] - [line]
+Light Attack - 19
+Three Fold Bolt - 171
+Seeker Bolt - 1075
+Explosive Bolt - 1639
+Ricochet Seeker - 3716 
+Magickal Flare - 9212
+Funnel Trail - 10593 
+Bracer Arrow - 11077
+Ward Arrow - 11367
+----------------------------------------
+
+LIGHT ATTACK 
+<string value="effect\epv\pl\p_pl_mbw"/>
+<string value="sound\se\wep\arw_pl_basic\arw_pl_basic"/>
+<classref name="mpArray" type="1085265802"> (19 line)
+
+THREE FOLD BOLT
+<string value="effect\epv\pl\p_pl_mbw_001"/>
+<string value="sound\se\cstm\mbw\concentrate\cstm_mbw_concentrate"/>
+<classref type="1155078162"> - Three Fold Bolt (core)   (171 line)
+<classref type="118696791"> - Three Fold Bolt (bolts) (324 line)
+Upgrade 1: lines: 467 (core), 620 (bolts)
+Upgrade 2: lines: 763 (core), 916 (bolts)
+
+SEEKER BOLT
+<string value="effect\epv\pl\p_pl_mbw_003"/>
+<string value="sound\se\cstm\mbw\rockon\cstm_mbw_rockon"/>
+<classref type="1085265802"> - Seeker Bolt (core-bolts) (1075 line)
+<classref type="1085265802"> - Seeker Bolt (lights) (1212 line)
+Upgrade 1: lines: 1349 (core-bolts), 1486(lights)
+
+EXPLOSIVE BOLT
+<string value="effect\epv\pl\p_pl_mbw_005"/>
+<string value="sound\se\cstm\mbw\explosion\cstm_mbw_explosion"/>
+<classref type="1085265802"> (bolts) (1639 line)
+<classref type="1605883267"> (1776,1845,1914,1983 line)
+1st: The attached effect with hitboxes. (Arrow + ball) TO THE ENEMY
+2nd: Explosive enemy
+3rd: The attached effect with hitboxes. (Arrow + ball) TO THE WALL/GROUND
+4th: Explosive ground/wall
+
+shlNoBreak" value="-1"/> 2 i 4 -> -1
+
+Upgrade 1: lines: 2052,2189,2326 (3 bolts)
+Upgrade 2: lines: 2739,2876,3013,3150,3287 (5 bolts)
+I belive it's the way which allow to add even more bolts.
+-> <array name="mpArray" type="classref" count="21"> (line 1638 adjust count number then. If not game gonna crash.)
+
+RICOCHET SEEKER
+<string value="effect\epv\pl\p_pl_mbw_007"/>
+<string value="sound\se\cstm\mbw\reflect\cstm_mbw_reflect"/>
+<array name="mpArray" type="classref" count="40"> <-> 40 bolts
+<classref type="1085265802"> (bolt line 3716)
+Another lines 3853,3990...8785,8922,9059 <-> This skill has 40 default bolts classes, it's hard to figure them out - you need a lot of time to do that.
+Remember that Non-upgraded has 1 bolt, 1st Upgrade has 3 bolts.
+So first 10 rows should be involved with non-upgraded skill and next 30 with upgraded.
+
+MAGICKAL FLARE
+<string value="effect\epv\pl\p_pl_mbw_009"/>
+<string value="sound\se\cstm\mbw\light\cstm_mbw_light"/>
+<classref type="1085265802"> (bolt line 9212)
+Upgrade 1: line: 9667
+Upgrade 2: line: 10122 
+Like inside EXPLOSIVE-BOLT type="1605883267"> is area effect of lighting.
+type="1723301930"> is ?
+
+FUNNEL TRAIL 
+<string value="effect\epv\pl\p_pl_mbw_011"/>
+<string value="sound\se\cstm\mbw\shl_suction\cstm_mbw_shl_suction"/>
+<classref type="1085265802"> (bolt line 10593)
+Upgrade 1: line: 10964
+type="96962053"> is Pulling area effect
+
+BRACER ARROW
+<string value="effect\epv\pl\p_pl_mbw_015"/>
+<string value="sound\se\cstm\mbw\em_suction\cstm_mbw_em_suction"/>
+<classref type="1085265802"> (bolt line 11077)
+Upgrade 1: line: 11214
+
+WARD ARROW
+<string value="effect\epv\pl\p_pl_mbw_013"/>
+<string value="sound\se\cstm\mbw\gurd\cstm_mbw_gurd"/>
+<class name="mShlList" type="1085265802"> (bolt line 11367)
+Upgrade 1: line: 11504
+
+SACRIFICIAL BOLT
+<string value="effect\epv\pl\p_pl_mbw_017"/>
+<string value="sound\se\cstm\mbw\ultimate\cstm_mbw_ultimate"/>
+<class name="mShlList" type="1085265802"> (bolt (moves from pawn to arisen) 11657)
+Upgrade 1: line: 12076
+type="1723301930"> is ?
+type="319999534"> is ?
+type="1605883267"> - Area effect 
+
+
+by iomatix - 2019 
+https://www.nexusmods.com/users/67232281 For 
+https://www.nexusmods.com/dragonsdogma/mods/471

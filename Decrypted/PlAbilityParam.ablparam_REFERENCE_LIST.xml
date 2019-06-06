@@ -1,0 +1,696 @@
+<?xml version="1.0" encoding="utf-8"?> <!-- THIS AUGMENT LIST IS FOR REFERENCE ONLY -->
+<class name="XFS" type="1507328320"> <!-- SECONDARY VALUES ARE BASE VALUES UNLESS OTHERWISE MENTIONED, DON'T CHANGE THEM -->
+	<u32 name="mQuality" value="2"/> <!-- HEALTH IS CRITICAL WHEN HEALTH IS EQUAL TO 30% OF YOUR HEALTH OR LESS -  ATK AND MATK CANNOT BE INCREASED VIA AUGMENTS BY MORE THAN 80% IN DARK ARISEN -->
+	<array name="mArray" type="classref" count="115"> <!-- FIGHTER AUGMENTS BELOW -->
+		<classref type="608257511"> <!-- FITNESS -->
+			<f32 name="mFVal0" value="0.5000000000"/> <!-- DECREASE VALUE TO REDUCE STAMINA CONSUMPTION WHEN HOLDING OBJECTS OR GRAPPLING BY A % (0.5 is 50% less stamina spent while holding objects or grappling) -->
+			<f32 name="mFVal1" value="1.0000000000"/>
+			<s32 name="mSVal0" value="0"/>
+			<s32 name="mSVal1" value="0"/>
+		</classref>
+		<classref type="608257511"> <!-- SINEW -->
+			<f32 name="mFVal0" value="20.0000000000"/> <!-- DIRECTLY INCREASES THE WEIGHT YOU CAN HOLD BY ITS VALUE (20 increases it by 20kg) -->
+			<f32 name="mFVal1" value="0.0000000000"/>
+			<s32 name="mSVal0" value="0"/>
+			<s32 name="mSVal1" value="0"/>
+		</classref>
+		<classref type="608257511"> <!-- EGRESSION -->
+			<f32 name="mFVal0" value="0.5000000000"/> <!-- DECREASE VALUE TO REDUCE DIFFICULTY OF ESCAPING GRAPPLES BY A % (0.5 - 50% easier to escape grapples) -->
+			<f32 name="mFVal1" value="1.0000000000"/>
+			<s32 name="mSVal0" value="0"/>
+			<s32 name="mSVal1" value="0"/>
+		</classref>
+		<classref type="608257511"> <!-- PRESCIENCE -->
+			<f32 name="mFVal0" value="5.0000000000"/> <!-- INCREASE VALUE TO INCREASE FRAMES AVAILABLE PERFECT BLOCK (5 = 5 frames, 25 = 25 frames) -->
+			<f32 name="mFVal1" value="0.0000000000"/>
+			<s32 name="mSVal0" value="0"/>
+			<s32 name="mSVal1" value="0"/>
+		</classref>
+		<classref type="608257511"> <!-- EXHILARATION -->
+			<f32 name="mFVal0" value="1.3500000238"/> <!-- INCREASE VALUE TO INCREASE DAMAGE BY A % WHEN HEALTH IS CRITICAL (1.35 = 35% More ATK) -->
+			<f32 name="mFVal1" value="1.0000000000"/>
+			<s32 name="mSVal0" value="0"/>
+			<s32 name="mSVal1" value="0"/>
+		</classref>
+		<classref type="608257511"> <!-- VEHEMENCE -->
+			<f32 name="mFVal0" value="10.0000000000"/> <!-- INCREASES ATK BY A % EQUAL TO IT (10 = 10%) -->
+			<f32 name="mFVal1" value="0.0000000000"/>
+			<s32 name="mSVal0" value="0"/>
+			<s32 name="mSVal1" value="0"/>
+		</classref>
+		<classref type="608257511"> <!-- VIGILANCE -->
+			<f32 name="mFVal0" value="100.0000000000"/> <!-- INCREASES MAX HP BY ITS VALUE (100 = 100HP) -->
+			<f32 name="mFVal1" value="0.0000000000"/>
+			<s32 name="mSVal0" value="0"/>
+			<s32 name="mSVal1" value="0"/>
+		</classref>
+		<classref type="608257511">
+			<f32 name="mFVal0" value="0.0000000000"/>
+			<f32 name="mFVal1" value="0.0000000000"/>
+			<s32 name="mSVal0" value="0"/>
+			<s32 name="mSVal1" value="0"/>
+		</classref>
+		<classref type="608257511">
+			<f32 name="mFVal0" value="0.0000000000"/>
+			<f32 name="mFVal1" value="0.0000000000"/>
+			<s32 name="mSVal0" value="0"/>
+			<s32 name="mSVal1" value="0"/>
+		</classref>
+		<classref type="608257511">
+			<f32 name="mFVal0" value="0.0000000000"/>
+			<f32 name="mFVal1" value="0.0000000000"/>
+			<s32 name="mSVal0" value="0"/>
+			<s32 name="mSVal1" value="0"/>
+		</classref> <!-- STRIDER AUGMENTS BELOW -->
+		<classref type="608257511"> <!-- LEG-STRENGTH -->
+			<f32 name="mFVal0" value="0.0000000000"/>
+			<f32 name="mFVal1" value="0.0000000000"/>
+			<s32 name="mSVal0" value="-1"/> <!-- DECREASES YOUR WEIGHT RANK BY ITS VALUE (-1 = 1 rank lighter, so if you are light, you become very light, -2 = 2 ranks lighter, etc.) -->
+			<s32 name="mSVal1" value="0"/>
+		</classref>
+		<classref type="608257511"> <!-- ARM-STRENGTH -->
+			<f32 name="mFVal0" value="0.5000000000"/> <!-- DECREASES STAMINA CONSUMED WHEN CLIMBING ENEMIES BY A % (.5 = 50% less stamina consumed) -->
+			<f32 name="mFVal1" value="1.0000000000"/>
+			<s32 name="mSVal0" value="0"/>
+			<s32 name="mSVal1" value="0"/>
+		</classref>
+		<classref type="608257511"> <!-- GRIT -->
+			<f32 name="mFVal0" value="0.5000000000"/> <!-- DECREASES TIME TO RECOVER FROM RUNNING OUT OF STAMINA BY A % (.5 = 50% faster recovery) -->
+			<f32 name="mFVal1" value="1.0000000000"/>
+			<s32 name="mSVal0" value="0"/>
+			<s32 name="mSVal1" value="0"/>
+		</classref>
+		<classref type="608257511"> <!-- DAMPING - REMOVES RECOIL FROM FIRING BOW -->
+			<f32 name="mFVal0" value="0.0000000000"/>
+			<f32 name="mFVal1" value="0.0000000000"/>
+			<s32 name="mSVal0" value="0"/>
+			<s32 name="mSVal1" value="0"/>
+		</classref>
+		<classref type="608257511"> <!-- DEXTERITY -->
+			<f32 name="mFVal0" value="2.0000000000"/> <!-- INCREASES CLIMBING SPEED UP CLIFFS BY A % (2 = double climbing speed) -->
+			<f32 name="mFVal1" value="1.0000000000"/>
+			<s32 name="mSVal0" value="2"/> <!-- INCREASES CLIMBING SPEED UP MONSTERS BY A % (2 = 20%) -->
+			<s32 name="mSVal1" value="0"/>
+		</classref>
+		<classref type="608257511"> <!-- EMINENCE -->
+			<f32 name="mFVal0" value="1.2999999523"/> <!-- INCREASES ATK WHILE JUMPING BY A % (1.3 = 30% more powerful while jumping) -->
+			<f32 name="mFVal1" value="1.0000000000"/>
+			<s32 name="mSVal0" value="0"/>
+			<s32 name="mSVal1" value="0"/>
+		</classref>
+		<classref type="608257511"> <!-- ENDURANCE -->
+			<f32 name="mFVal0" value="100.0000000000"/> <!-- INCREASES STAMINA BY ITS VALUE (100 = 100 extra stamina) -->
+			<f32 name="mFVal1" value="0.0000000000"/>
+			<s32 name="mSVal0" value="0"/>
+			<s32 name="mSVal1" value="0"/>
+		</classref>
+		<classref type="608257511">
+			<f32 name="mFVal0" value="0.0000000000"/>
+			<f32 name="mFVal1" value="0.0000000000"/>
+			<s32 name="mSVal0" value="0"/>
+			<s32 name="mSVal1" value="0"/>
+		</classref>
+		<classref type="608257511">
+			<f32 name="mFVal0" value="0.0000000000"/>
+			<f32 name="mFVal1" value="0.0000000000"/>
+			<s32 name="mSVal0" value="0"/>
+			<s32 name="mSVal1" value="0"/>
+		</classref>
+		<classref type="608257511">
+			<f32 name="mFVal0" value="0.0000000000"/>
+			<f32 name="mFVal1" value="0.0000000000"/>
+			<s32 name="mSVal0" value="0"/>
+			<s32 name="mSVal1" value="0"/>
+		</classref> <!-- MAGE AUGMENTS BELOW -->
+		<classref type="608257511"> <!-- INFLECTION -->
+			<f32 name="mFVal0" value="0.5000000000"/> <!-- DECREASES DAMAGE TAKEN WHILE CASTING SPELLS BY A % (1.5 = 50% less damage taken while casting) -->
+			<f32 name="mFVal1" value="1.0000000000"/>
+			<s32 name="mSVal0" value="0"/>
+			<s32 name="mSVal1" value="0"/>
+		</classref>
+		<classref type="608257511"> <!-- EQUANIMITY -->
+			<f32 name="mFVal0" value="1.2000000477"/> <!-- WHEN HEALTH IS CRITICAL, MATK INCREASES BY A % (1.2 = 20% MATK Increase) -->
+			<f32 name="mFVal1" value="1.0000000000"/>
+			<s32 name="mSVal0" value="0"/>
+			<s32 name="mSVal1" value="0"/>
+		</classref>
+		<classref type="608257511"> <!-- BEATITUDE -->
+			<f32 name="mFVal0" value="1.5000000000"/> <!-- HEALING MAGICK LASTS % LONGER (1.5 = 50% longer spell duration for Halidom, Anodyne, Jewel of Health, etc.) -->
+			<f32 name="mFVal1" value="1.0000000000"/>
+			<s32 name="mSVal0" value="0"/>
+			<s32 name="mSVal1" value="0"/>
+		</classref>
+		<classref type="608257511"> <!-- PERPETUATION -->
+			<f32 name="mFVal0" value="1.2999999523"/> <!-- SPELL ENCHANTMENTS LAST % LONGER (1.3 = 30% Longer duration for Mage and Sorcerer Boon and Affinity spells and some Mystic Knight enchanter and trance skills. Doesn't affect - Spellscreen, Ward Arrow, Magick Rebalancer, Abyssal Anguish, enchanted shield spells, including Blessed Riposte) -->
+			<f32 name="mFVal1" value="1.0000000000"/>
+			<s32 name="mSVal0" value="0"/>
+			<s32 name="mSVal1" value="0"/>
+		</classref>
+		<classref type="608257511"> <!-- INTERVENTION -->
+			<f32 name="mFVal0" value="15.0000000000"/> <!-- REDUCES BURNING STATUS POTENCY TO A % EQUAL TO ITS VALUE (15 = 15% of original value) -->
+			<f32 name="mFVal1" value="0.0000000000"/>
+			<s32 name="mSVal0" value="0"/>
+			<s32 name="mSVal1" value="0"/>
+		</classref>
+		<classref type="608257511"> <!-- ATTUNEMENT -->
+			<f32 name="mFVal0" value="10.0000000000"/> <!-- MATK INCREASED BY % EQUAL TO VALUE (10 = 10% MATK Increase) -->
+			<f32 name="mFVal1" value="0.0000000000"/>
+			<s32 name="mSVal0" value="0"/>
+			<s32 name="mSVal1" value="0"/>
+		</classref>
+		<classref type="608257511"> <!-- APOTROPAISM -->
+			<f32 name="mFVal0" value="30.0000000000"/> <!-- INCREASES MDEF BY ITS VALUE (30 = 30 More MDEF) -->
+			<f32 name="mFVal1" value="0.0000000000"/>
+			<s32 name="mSVal0" value="0"/>
+			<s32 name="mSVal1" value="0"/>
+		</classref>
+		<classref type="608257511">
+			<f32 name="mFVal0" value="0.0000000000"/>
+			<f32 name="mFVal1" value="0.0000000000"/>
+			<s32 name="mSVal0" value="0"/>
+			<s32 name="mSVal1" value="0"/>
+		</classref>
+		<classref type="608257511">
+			<f32 name="mFVal0" value="0.0000000000"/>
+			<f32 name="mFVal1" value="0.0000000000"/>
+			<s32 name="mSVal0" value="0"/>
+			<s32 name="mSVal1" value="0"/>
+		</classref>
+		<classref type="608257511">
+			<f32 name="mFVal0" value="0.0000000000"/>
+			<f32 name="mFVal1" value="0.0000000000"/>
+			<s32 name="mSVal0" value="0"/>
+			<s32 name="mSVal1" value="0"/>
+		</classref> <!-- MYSTIC KNIGHT AUGMENTS BELOW -->
+		<classref type="608257511"> <!-- ADAMANCE -->
+			<f32 name="mFVal0" value="0.5000000000"/> <!-- DECREASES STAMINA CONSUMED WHEN BLOCKING BY A % (.5 = 50% less stamina consumed while blocking attacks) -->
+			<f32 name="mFVal1" value="1.0000000000"/>
+			<s32 name="mSVal0" value="0"/>
+			<s32 name="mSVal1" value="0"/>
+		</classref>
+		<classref type="608257511"> <!-- PERIPHERY -->
+			<f32 name="mFVal0" value="50.0000000000"/> <!-- INCREASES STAGGER RESISTANCE WHILE BLOCKING BY ITS VALUE (50 = 50 Stagger Resistance while blocking attacks) -->
+			<f32 name="mFVal1" value="0.0000000000"/>
+			<s32 name="mSVal0" value="0"/>
+			<s32 name="mSVal1" value="0"/>
+		</classref>
+		<classref type="608257511"> <!-- SANCTUARY -->
+			<f32 name="mFVal0" value="1.5000000000"/> <!-- DEF AND MDEF INCREASED BY % WHEN HEALTH IS CRITICAL (1.5 = 50% increase) -->
+			<f32 name="mFVal1" value="1.0000000000"/>
+			<s32 name="mSVal0" value="0"/>
+			<s32 name="mSVal1" value="0"/>
+		</classref>
+		<classref type="608257511"> <!-- RESTORATION -->
+			<f32 name="mFVal0" value="0.7500000000"/> <!-- PAWNS ARE REVIVED WITH % HEALTH WHEN AIDED (.75 = Pawns revive with 75% health) -->
+			<f32 name="mFVal1" value="0.0000000000"/>
+			<s32 name="mSVal0" value="0"/>
+			<s32 name="mSVal1" value="0"/>
+		</classref>
+		<classref type="608257511"> <!-- RETRIBUTION -->
+			<f32 name="mFVal0" value="1.2000000477"/> <!-- PAWNS ARE REVIVED WITH % INCREASE IN ATK AND MATK WHEN AIDED (.2 = Pawns revive with 20% More ATK and MATK) -->
+			<f32 name="mFVal1" value="1.0000000000"/>
+			<s32 name="mSVal0" value="1800"/> <!-- TIME THE BUFF LASTS AFTER REVIVED (1800 = 1 Minute) -->
+			<s32 name="mSVal1" value="0"/>
+		</classref>
+		<classref type="608257511"> <!-- REINFORCEMENT -->
+			<f32 name="mFVal0" value="1.2000000477"/> <!-- PAWNS ARE REVIVED WITH % INCREASE IN DEF AND MDEF WHEN AIDED (.2 = Pawns revive with 20% More DEF and MDEF) -->
+			<f32 name="mFVal1" value="1.0000000000"/>
+			<s32 name="mSVal0" value="1800"/> <!-- TIME THE BUFF LASTS AFTER REVIVED (1800 = 60 seconds = 1 minute) -->
+			<s32 name="mSVal1" value="0"/>
+		</classref>
+		<classref type="608257511"> <!-- FORTITUDE -->
+			<f32 name="mFVal0" value="30.0000000000"/> <!-- INCREASES DEF BY VALUE (30 = 30 extra DEF) -->
+			<f32 name="mFVal1" value="0.0000000000"/>
+			<s32 name="mSVal0" value="0"/>
+			<s32 name="mSVal1" value="0"/>
+		</classref>
+		<classref type="608257511">
+			<f32 name="mFVal0" value="0.0000000000"/>
+			<f32 name="mFVal1" value="0.0000000000"/>
+			<s32 name="mSVal0" value="0"/>
+			<s32 name="mSVal1" value="0"/>
+		</classref>
+		<classref type="608257511">
+			<f32 name="mFVal0" value="0.0000000000"/>
+			<f32 name="mFVal1" value="0.0000000000"/>
+			<s32 name="mSVal0" value="0"/>
+			<s32 name="mSVal1" value="0"/>
+		</classref>
+		<classref type="608257511">
+			<f32 name="mFVal0" value="0.0000000000"/>
+			<f32 name="mFVal1" value="0.0000000000"/>
+			<s32 name="mSVal0" value="0"/>
+			<s32 name="mSVal1" value="0"/>
+		</classref> <!-- ASSASSIN AUGMENTS BELOW -->
+		<classref type="608257511"> <!-- WATCHFULNESS -->
+			<f32 name="mFVal0" value="0.5000000000"/> <!-- DECREASES DAMAGE BY A % WHEN WEAPON IS SHEATHED (.5 = 50% less damage taken when weapon sheathed) -->
+			<f32 name="mFVal1" value="1.0000000000"/>
+			<s32 name="mSVal0" value="0"/>
+			<s32 name="mSVal1" value="0"/>
+		</classref>
+		<classref type="608257511"> <!-- PREEMPTION -->
+			<f32 name="mFVal0" value="2.0000000000"/> <!-- INCREASES DAMAGE BY A % WHEN ENEMIES ARE VULNERABLE (1.5 = 50% more damage when enemies are vulnerable - may be bugged) -->
+			<f32 name="mFVal1" value="1.0000000000"/>
+			<s32 name="mSVal0" value="0"/>
+			<s32 name="mSVal1" value="0"/>
+		</classref>
+		<classref type="608257511"> <!-- AUTONOMY -->
+			<f32 name="mFVal0" value="20.0000000000"/> <!-- INCREASES ATK AND MATK BY A % EQUAL TO ITS VALUE WHEN PLAYER IS ALONE (20 = 20% Increase in ATK and MATK) -->
+			<f32 name="mFVal1" value="20.0000000000"/> <!-- INCREASES DEF AND MDEF BY A % EQUAL TO ITS VALUE WHEN PLAYER IS ALONE (20 = 20% Increase in DEF and MDEF) -->
+			<s32 name="mSVal0" value="0"/>
+			<s32 name="mSVal1" value="0"/>
+		</classref>
+		<classref type="608257511"> <!-- BLOODLUST -->
+			<f32 name="mFVal0" value="20.0000000000"/> <!-- INCREASES ATK AND MATK BY % EQUAL TO ITS VALUE (20 = 20% Increase in ATK and MATK) -->
+			<f32 name="mFVal1" value="20.0000000000"/> <!-- INCREASES DEF AND MDEF BY % EQUAL TO ITS VALUE (20 = 20% Increase in DEF and MDEF) -->
+			<s32 name="mSVal0" value="21"/> <!-- TIME WHEN BLOODLUST BECOMES ACTIVE (21 = 9PM) -->
+			<s32 name="mSVal1" value="4"/> <!-- TIME WHEN BLOODLUST BECOMES INACTIVE (4 = 4AM) -->
+		</classref>
+		<classref type="608257511"> <!-- ENTRANCEMENT -->
+			<f32 name="mFVal0" value="100.0000000000"/> <!-- INCREASES STAMINA BY ITS VALUE (100 = 100 extra stamina) -->
+			<f32 name="mFVal1" value="0.0000000000"/>
+			<s32 name="mSVal0" value="21"/> <!-- TIME WHEN ENTRANCEMENT BECOMES ACTIVE (21 = 9PM) -->
+			<s32 name="mSVal1" value="4"/> <!-- TIME WHEN ENTRANCEMENT BECOMES INACTIVE (4 = 4AM) -->
+		</classref>
+		<classref type="608257511"> <!-- SANGUINITY -->
+			<f32 name="mFVal0" value="100.0000000000"/> <!-- INCREASES HEALTH BY ITS VALUE (100 = 100 extra health) -->
+			<f32 name="mFVal1" value="0.0000000000"/>
+			<s32 name="mSVal0" value="21"/> <!-- TIME WHEN SANGUINITY BECOMES ACTIVE (21 = 9PM) -->
+			<s32 name="mSVal1" value="4"/> <!-- TIME WHEN SANGUINITY BECOMES INACTIVE (4 = 4AM) -->
+		</classref>
+		<classref type="608257511"> <!-- TOXICITY -->
+			<f32 name="mFVal0" value="3.0000000000"/> <!-- INCREASES CHANCE TO POISON ENEMIES BY % (1.5 = 50% more likely to poison enemies) -->
+			<f32 name="mFVal1" value="1.0000000000"/>
+			<s32 name="mSVal0" value="0"/>
+			<s32 name="mSVal1" value="0"/>
+		</classref>
+		<classref type="608257511">
+			<f32 name="mFVal0" value="0.0000000000"/>
+			<f32 name="mFVal1" value="0.0000000000"/>
+			<s32 name="mSVal0" value="0"/>
+			<s32 name="mSVal1" value="0"/>
+		</classref>
+		<classref type="608257511">
+			<f32 name="mFVal0" value="0.0000000000"/>
+			<f32 name="mFVal1" value="0.0000000000"/>
+			<s32 name="mSVal0" value="0"/>
+			<s32 name="mSVal1" value="0"/>
+		</classref>
+		<classref type="608257511">
+			<f32 name="mFVal0" value="0.0000000000"/>
+			<f32 name="mFVal1" value="0.0000000000"/>
+			<s32 name="mSVal0" value="0"/>
+			<s32 name="mSVal1" value="0"/>
+		</classref> <!-- MAGICK ARCHER AUGMENTS BELOW -->
+		<classref type="608257511"> <!-- RESILIENCE -->
+			<f32 name="mFVal0" value="0.5000000000"/> <!-- DECREASES DAMAGE FROM FALLING BY % (.5 = 50% less damage from falling) -->
+			<f32 name="mFVal1" value="1.0000000000"/>
+			<s32 name="mSVal0" value="1"/>
+			<s32 name="mSVal1" value="0"/>
+		</classref>
+		<classref type="608257511"> <!-- RESISTANCE -->
+			<f32 name="mFVal0" value="15.0000000000"/> <!-- GRANTS IMMUNITY TO POISON AND % RESISTANCE TO DEBILITATIONS BASED ON ITS VALUE (15 = 15% resistance to BLINDNESS, CURSE, LOWERED DEFENSE, LOWERED MAGICK, LOWERED MAGICK DEFENSE, LOWERED STRENGTH, PETRIFICATION, POSSESSION, SILENCE, SKILL STIFLING, SLEEP, and TORPOR) -->
+			<f32 name="mFVal1" value="0.0000000000"/>
+			<s32 name="mSVal0" value="0"/>
+			<s32 name="mSVal1" value="0"/>
+		</classref>
+		<classref type="608257511"> <!-- DETECTION -->
+			<f32 name="mFVal0" value="1.5000000000"/> <!-- INCREASES FOG OF WAR REVEAL RADIUS BY % (1.5 = 50% increased radius when revealing fog of war on game map) -->
+			<f32 name="mFVal1" value="1.0000000000"/>
+			<s32 name="mSVal0" value="0"/>
+			<s32 name="mSVal1" value="0"/>
+		</classref>
+		<classref type="608257511"> <!-- REGENERATION -->
+			<f32 name="mFVal0" value="1.0000000000"/> <!-- INCREASES HEALTH REGENERATION BY ITS VALUE OVER TIME (1 = 1 Health, 20 = 20 Health) -->
+			<f32 name="mFVal1" value="0.0000000000"/>
+			<s32 name="mSVal0" value="90"/> <!-- TIME INTERVAL BETWEEN REGENERATION TICKS (90 = 3 seconds) -->
+			<s32 name="mSVal1" value="0"/>
+		</classref>
+		<classref type="608257511"> <!-- ALLURE -->
+			<f32 name="mFVal0" value="2.0000000000"/> <!-- INCREASES AFFINITY GAINS WITH NON-PAWNS (NPCs) BY % (1.5 = 50% increase in affinity gains with NPCs) -->
+			<f32 name="mFVal1" value="1.0000000000"/>
+			<s32 name="mSVal0" value="0"/>
+			<s32 name="mSVal1" value="0"/>
+		</classref>
+		<classref type="608257511"> <!-- POTENTIAL -->
+			<f32 name="mFVal0" value="100.0000000000"/> <!-- INCREASES STAMINA BY ITS VALUE (100 = 100 extra stamina) -->
+			<f32 name="mFVal1" value="0.0000000000"/>
+			<s32 name="mSVal0" value="2"/>
+			<s32 name="mSVal1" value="0"/>
+		</classref>
+		<classref type="608257511"> <!-- MAGNITUDE -->
+			<f32 name="mFVal0" value="1.5000000000"/> <!-- DECREASES TIME FOR SPELLS TO INFLICT STATUS EFFECTS BY % (1.5 = 50% less time for debilitating spells like SILENTIUM or BLEARING to take effect - doesn't affect spells that cause secondary status effects like COMESTION) -->
+			<f32 name="mFVal1" value="1.0000000000"/>
+			<s32 name="mSVal0" value="0"/>
+			<s32 name="mSVal1" value="0"/>
+		</classref>
+		<classref type="608257511">
+			<f32 name="mFVal0" value="0.0000000000"/>
+			<f32 name="mFVal1" value="0.0000000000"/>
+			<s32 name="mSVal0" value="0"/>
+			<s32 name="mSVal1" value="0"/>
+		</classref>
+		<classref type="608257511">
+			<f32 name="mFVal0" value="0.0000000000"/>
+			<f32 name="mFVal1" value="0.0000000000"/>
+			<s32 name="mSVal0" value="0"/>
+			<s32 name="mSVal1" value="0"/>
+		</classref>
+		<classref type="608257511">
+			<f32 name="mFVal0" value="0.0000000000"/>
+			<f32 name="mFVal1" value="0.0000000000"/>
+			<s32 name="mSVal0" value="0"/>
+			<s32 name="mSVal1" value="0"/>
+		</classref> <!-- WARRIOR AUGMENTS BELOW -->
+		<classref type="608257511"> <!-- TEMERITY -->
+			<f32 name="mFVal0" value="0.5000000000"/> <!-- DECREASES DAMAGE TAKEN WHILE CHARGING PHYSICAL SKILLS BY % (.5 = 50% less damage taken while charging physical skills) -->
+			<f32 name="mFVal1" value="1.0000000000"/>
+			<s32 name="mSVal0" value="0"/>
+			<s32 name="mSVal1" value="0"/>
+		</classref>
+		<classref type="608257511"> <!-- AUDACITY -->
+			<f32 name="mFVal0" value="15.0000000000"/> <!-- DECREASES STAGGER AND KNOCKBACK ACCUMULATION BY % EQUAL TO ITS VALUE (15 = 15% increase in STAGGER and KNOCKBACK resist) -->
+			<f32 name="mFVal1" value="1.0000000000"/>
+			<s32 name="mSVal0" value="0"/>
+			<s32 name="mSVal1" value="0"/>
+		</classref>
+		<classref type="608257511"> <!-- PROFICIENCY -->
+			<f32 name="mFVal0" value="25.0000000000"/> <!-- DECREASES STAMINA CONSUMED WHEN USING A PHYSICAL ATTACK SKILL BY % - DOES NOT AFFECT BOW SKILLS (25 = 25% less stamina consumed when using physical attack skills) -->
+			<f32 name="mFVal1" value="1.0000000000"/>
+			<s32 name="mSVal0" value="0"/>
+			<s32 name="mSVal1" value="0"/>
+		</classref>
+		<classref type="608257511"> <!-- FEROCITY -->
+			<f32 name="mFVal0" value="1.1000000238"/> <!-- INCREASES ATK AND MATK OF CORE SKILLS (1.1 = 10% increase in ATK and MATK when using Core Skills such as Carve or Seeker) -->
+			<f32 name="mFVal1" value="1.0000000000"/>
+			<s32 name="mSVal0" value="0"/>
+			<s32 name="mSVal1" value="0"/>
+		</classref>
+		<classref type="608257511"> <!-- IMPACT -->
+			<f32 name="mFVal0" value="1.2999999523"/> <!-- INCREASES KNOCKDOWN POWER OF PHYSICAL ATTACKS BY % (1.3 = 30% increased KNOCKDOWN POWER) -->
+			<f32 name="mFVal1" value="1.0000000000"/>
+			<s32 name="mSVal0" value="0"/>
+			<s32 name="mSVal1" value="0"/>
+		</classref>
+		<classref type="608257511"> <!-- BASTION -->
+			<f32 name="mFVal0" value="50.0000000000"/> <!-- REDUCES DAMAGE BY ITS VALUE (50 = Reduces all physical incoming damage by 50) -->
+			<f32 name="mFVal1" value="0.0000000000"/>
+			<s32 name="mSVal0" value="0"/>
+			<s32 name="mSVal1" value="0"/>
+		</classref>
+		<classref type="608257511"> <!-- CLOUT -->
+			<f32 name="mFVal0" value="20.0000000000"/> <!-- INCREASES ATK BY % EQUAL TO ITS VALUE (20 = 20% Increased ATK) -->
+			<f32 name="mFVal1" value="0.0000000000"/>
+			<s32 name="mSVal0" value="0"/>
+			<s32 name="mSVal1" value="0"/>
+		</classref>
+		<classref type="608257511">
+			<f32 name="mFVal0" value="0.0000000000"/>
+			<f32 name="mFVal1" value="0.0000000000"/>
+			<s32 name="mSVal0" value="0"/>
+			<s32 name="mSVal1" value="0"/>
+		</classref>
+		<classref type="608257511">
+			<f32 name="mFVal0" value="0.0000000000"/>
+			<f32 name="mFVal1" value="0.0000000000"/>
+			<s32 name="mSVal0" value="0"/>
+			<s32 name="mSVal1" value="0"/>
+		</classref>
+		<classref type="608257511">
+			<f32 name="mFVal0" value="0.0000000000"/>
+			<f32 name="mFVal1" value="0.0000000000"/>
+			<s32 name="mSVal0" value="0"/>
+			<s32 name="mSVal1" value="0"/>
+		</classref> <!-- RANGER AUGMENTS BELOW -->
+		<classref type="608257511"> <!-- TRAJECTORY -->
+			<f32 name="mFVal0" value="1.2999999523"/> <!-- INCREASES ARROW TRAVEL DISTANCE BY % (1.3 = Arrows fly 30% farther) -->
+			<f32 name="mFVal1" value="1.0000000000"/>
+			<s32 name="mSVal0" value="0"/>
+			<s32 name="mSVal1" value="0"/>
+		</classref>
+		<classref type="608257511"> <!-- MORBIDITY -->
+			<f32 name="mFVal0" value="1.2999999523"/> <!-- INCREASES CHANCE OF PHYSICAL DEBILITATIONS BY % (1.3 = Physical weapons that cause debilitations 30% more likely to cause them) -->
+			<f32 name="mFVal1" value="1.0000000000"/>
+			<s32 name="mSVal0" value="0"/>
+			<s32 name="mSVal1" value="0"/>
+		</classref>
+		<classref type="608257511"> <!-- PRECISION - REMOVES ARROW DEVIATION AND ARROW SPREAD WHILE STRAFING/MOVING -->
+			<f32 name="mFVal0" value="0.0000000000"/>
+			<f32 name="mFVal1" value="0.0000000000"/>
+			<s32 name="mSVal0" value="0"/>
+			<s32 name="mSVal1" value="0"/>
+		</classref>
+		<classref type="608257511"> <!-- STABILITY - PREVENTS WING BUFFETS FROM STAGGERING OR KNOCKING DOWN - Includes Wing Buffets from Harpies, Cockatrices, and Dragons -->
+			<f32 name="mFVal0" value="0.0000000000"/>
+			<f32 name="mFVal1" value="0.0000000000"/>
+			<s32 name="mSVal0" value="0"/>
+			<s32 name="mSVal1" value="0"/>
+		</classref>
+		<classref type="608257511"> <!-- EFFICACY -->
+			<f32 name="mFVal0" value="1.2000000477"/> <!-- INCREASES HEALTH AND STAMINA RESTORATION EFFECTS OF ITEMS BY % (1.2 = 20% increase in healing when using items that restore health or stamina) -->
+			<f32 name="mFVal1" value="1.0000000000"/>
+			<s32 name="mSVal0" value="0"/>
+			<s32 name="mSVal1" value="0"/>
+		</classref>
+		<classref type="608257511"> <!-- RADIANCE -->
+			<f32 name="mFVal0" value="2.0000000000"/> <!-- INCREASES LANTERN LIGHT RADIUS BY % (2 = 20% larger lantern light radius) -->
+			<f32 name="mFVal1" value="1.0000000000"/>
+			<s32 name="mSVal0" value="0"/>
+			<s32 name="mSVal1" value="0"/>
+		</classref>
+		<classref type="608257511"> <!-- LONGEVITY -->
+			<f32 name="mFVal0" value="100.0000000000"/> <!-- INCREASES HEALTH BY ITS VALUE (100 = 100 extra health) -->
+			<f32 name="mFVal1" value="0.0000000000"/>
+			<s32 name="mSVal0" value="0"/>
+			<s32 name="mSVal1" value="0"/>
+		</classref>
+		<classref type="608257511">
+			<f32 name="mFVal0" value="0.0000000000"/>
+			<f32 name="mFVal1" value="0.0000000000"/>
+			<s32 name="mSVal0" value="0"/>
+			<s32 name="mSVal1" value="0"/>
+		</classref>
+		<classref type="608257511">
+			<f32 name="mFVal0" value="0.0000000000"/>
+			<f32 name="mFVal1" value="0.0000000000"/>
+			<s32 name="mSVal0" value="0"/>
+			<s32 name="mSVal1" value="0"/>
+		</classref>
+		<classref type="608257511">
+			<f32 name="mFVal0" value="0.0000000000"/>
+			<f32 name="mFVal1" value="0.0000000000"/>
+			<s32 name="mSVal0" value="0"/>
+			<s32 name="mSVal1" value="0"/>
+		</classref> <!-- SORCERER AUGMENTS BELOW -->
+		<classref type="608257511"> <!-- GRAVITAS -->
+			<f32 name="mFVal0" value="15.0000000000"/> <!-- INCREASES KNOCKDOWN RESISTANCE WHILE CASTING SPELLS BY % (15 = 15% more resistant to being knocked down or staggered while casting) -->
+			<f32 name="mFVal1" value="0.0000000000"/>
+			<s32 name="mSVal0" value="0"/>
+			<s32 name="mSVal1" value="0"/>
+		</classref>
+		<classref type="608257511"> <!-- ARTICULACY -->
+			<f32 name="mFVal0" value="10.0000000000"/> <!-- INCREASES SPELL CASTING SPEED BY % (10 = 10% Faster casting speed) -->
+			<f32 name="mFVal1" value="0.0000000000"/>
+			<s32 name="mSVal0" value="0"/>
+			<s32 name="mSVal1" value="0"/>
+		</classref>
+		<classref type="608257511"> <!-- CONSERVATION -->
+			<f32 name="mFVal0" value="15.0000000000"/> <!-- REDUCES STAMINA CONSUMED BY MAGICK WEAPONS BY % - DOES NOT AFFECT MAGICK BOWS (15 = 15% less stamina consumed when casting spells) -->
+			<f32 name="mFVal1" value="0.0000000000"/>
+			<s32 name="mSVal0" value="0"/>
+			<s32 name="mSVal1" value="0"/>
+		</classref>
+		<classref type="608257511"> <!-- EMPHASIS -->
+			<f32 name="mFVal0" value="1.2999999523"/> <!-- INCREASES KNOCKDOWN POWER OF SPELLS BY % (1.3 = 30% more knockdown power with spells that cause knockdown, such as COMESTION or MAELSTROM) -->
+			<f32 name="mFVal1" value="1.0000000000"/>
+			<s32 name="mSVal0" value="0"/>
+			<s32 name="mSVal1" value="0"/>
+		</classref>
+		<classref type="608257511"> <!-- SUASION -->
+			<f32 name="mFVal0" value="1.1499999762"/> <!-- INCREASES ITEM SELL PRICES BY % (1.15 = 15% higher sell prices when selling items to NPCs) -->
+			<f32 name="mFVal1" value="1.0000000000"/>
+			<s32 name="mSVal0" value="0"/>
+			<s32 name="mSVal1" value="0"/>
+		</classref>
+		<classref type="608257511"> <!-- ACUITY -->
+			<f32 name="mFVal0" value="20.0000000000"/> <!-- INCREASES MATK BY % (20 = 20% increased MATK) -->
+			<f32 name="mFVal1" value="0.0000000000"/>
+			<s32 name="mSVal0" value="0"/>
+			<s32 name="mSVal1" value="0"/>
+		</classref>
+		<classref type="608257511"> <!-- AWARENESS -->
+			<f32 name="mFVal0" value="50.0000000000"/> <!-- REDUCES MAGICK DAMAGE TAKEN BY VALUE (50 = 50 less magick damage taken) -->
+			<f32 name="mFVal1" value="0.0000000000"/>
+			<s32 name="mSVal0" value="0"/>
+			<s32 name="mSVal1" value="0"/>
+		</classref>
+		<classref type="608257511">
+			<f32 name="mFVal0" value="0.0000000000"/>
+			<f32 name="mFVal1" value="0.0000000000"/>
+			<s32 name="mSVal0" value="0"/>
+			<s32 name="mSVal1" value="0"/>
+		</classref>
+		<classref type="608257511">
+			<f32 name="mFVal0" value="0.0000000000"/>
+			<f32 name="mFVal1" value="0.0000000000"/>
+			<s32 name="mSVal0" value="0"/>
+			<s32 name="mSVal1" value="0"/>
+		</classref>
+		<classref type="608257511">
+			<f32 name="mFVal0" value="0.0000000000"/>
+			<f32 name="mFVal1" value="0.0000000000"/>
+			<s32 name="mSVal0" value="0"/>
+			<s32 name="mSVal1" value="0"/>
+		</classref>
+		<classref type="608257511">
+			<f32 name="mFVal0" value="1.2000000477"/>
+			<f32 name="mFVal1" value="1.0000000000"/>
+			<s32 name="mSVal0" value="0"/>
+			<s32 name="mSVal1" value="0"/>
+		</classref>
+		<classref type="608257511">
+			<f32 name="mFVal0" value="1.2000000477"/>
+			<f32 name="mFVal1" value="1.0000000000"/>
+			<s32 name="mSVal0" value="0"/>
+			<s32 name="mSVal1" value="0"/>
+		</classref>
+		<classref type="608257511">
+			<f32 name="mFVal0" value="25.0000000000"/>
+			<f32 name="mFVal1" value="0.0000000000"/>
+			<s32 name="mSVal0" value="0"/>
+			<s32 name="mSVal1" value="0"/>
+		</classref>
+		<classref type="608257511">
+			<f32 name="mFVal0" value="1.1499999762"/>
+			<f32 name="mFVal1" value="1.0000000000"/>
+			<s32 name="mSVal0" value="0"/>
+			<s32 name="mSVal1" value="0"/>
+		</classref>
+		<classref type="608257511">
+			<f32 name="mFVal0" value="1.3999999762"/>
+			<f32 name="mFVal1" value="1.0000000000"/>
+			<s32 name="mSVal0" value="0"/>
+			<s32 name="mSVal1" value="0"/>
+		</classref>
+		<classref type="608257511">
+			<f32 name="mFVal0" value="0.0000000000"/>
+			<f32 name="mFVal1" value="0.0000000000"/>
+			<s32 name="mSVal0" value="0"/>
+			<s32 name="mSVal1" value="0"/>
+		</classref>
+		<classref type="608257511">
+			<f32 name="mFVal0" value="0.0000000000"/>
+			<f32 name="mFVal1" value="0.0000000000"/>
+			<s32 name="mSVal0" value="0"/>
+			<s32 name="mSVal1" value="0"/>
+		</classref>
+		<classref type="608257511">
+			<f32 name="mFVal0" value="0.0000000000"/>
+			<f32 name="mFVal1" value="0.0000000000"/>
+			<s32 name="mSVal0" value="0"/>
+			<s32 name="mSVal1" value="0"/>
+		</classref>
+		<classref type="608257511">
+			<f32 name="mFVal0" value="0.0000000000"/>
+			<f32 name="mFVal1" value="0.0000000000"/>
+			<s32 name="mSVal0" value="0"/>
+			<s32 name="mSVal1" value="0"/>
+		</classref>
+		<classref type="608257511">
+			<f32 name="mFVal0" value="0.0000000000"/>
+			<f32 name="mFVal1" value="0.0000000000"/>
+			<s32 name="mSVal0" value="0"/>
+			<s32 name="mSVal1" value="0"/>
+		</classref>
+		<classref type="608257511">
+			<f32 name="mFVal0" value="100.0000000000"/>
+			<f32 name="mFVal1" value="0.0000000000"/>
+			<s32 name="mSVal0" value="0"/>
+			<s32 name="mSVal1" value="0"/>
+		</classref>
+		<classref type="608257511">
+			<f32 name="mFVal0" value="2.0000000000"/>
+			<f32 name="mFVal1" value="0.0000000000"/>
+			<s32 name="mSVal0" value="0"/>
+			<s32 name="mSVal1" value="0"/>
+		</classref>
+		<classref type="608257511">
+			<f32 name="mFVal0" value="0.0000000000"/>
+			<f32 name="mFVal1" value="0.0000000000"/>
+			<s32 name="mSVal0" value="0"/>
+			<s32 name="mSVal1" value="0"/>
+		</classref>
+		<classref type="608257511">
+			<f32 name="mFVal0" value="0.0000000000"/>
+			<f32 name="mFVal1" value="0.0000000000"/>
+			<s32 name="mSVal0" value="0"/>
+			<s32 name="mSVal1" value="0"/>
+		</classref>
+		<classref type="608257511">
+			<f32 name="mFVal0" value="0.0000000000"/>
+			<f32 name="mFVal1" value="0.0000000000"/>
+			<s32 name="mSVal0" value="0"/>
+			<s32 name="mSVal1" value="0"/>
+		</classref>
+		<classref type="608257511">
+			<f32 name="mFVal0" value="0.1250000000"/>
+			<f32 name="mFVal1" value="0.0000000000"/>
+			<s32 name="mSVal0" value="0"/>
+			<s32 name="mSVal1" value="0"/>
+		</classref>
+		<classref type="608257511">
+			<f32 name="mFVal0" value="0.0000000000"/>
+			<f32 name="mFVal1" value="0.0000000000"/>
+			<s32 name="mSVal0" value="0"/>
+			<s32 name="mSVal1" value="0"/>
+		</classref>
+		<classref type="608257511">
+			<f32 name="mFVal0" value="0.2500000000"/>
+			<f32 name="mFVal1" value="1.0000000000"/>
+			<s32 name="mSVal0" value="0"/>
+			<s32 name="mSVal1" value="0"/>
+		</classref>
+		<classref type="608257511">
+			<f32 name="mFVal0" value="0.0000000000"/>
+			<f32 name="mFVal1" value="0.0000000000"/>
+			<s32 name="mSVal0" value="0"/>
+			<s32 name="mSVal1" value="0"/>
+		</classref>
+		<classref type="608257511">
+			<f32 name="mFVal0" value="1.5000000000"/>
+			<f32 name="mFVal1" value="0.0000000000"/>
+			<s32 name="mSVal0" value="0"/>
+			<s32 name="mSVal1" value="0"/>
+		</classref>
+		<classref type="608257511">
+			<f32 name="mFVal0" value="2.0000000000"/>
+			<f32 name="mFVal1" value="1.0000000000"/>
+			<s32 name="mSVal0" value="0"/>
+			<s32 name="mSVal1" value="0"/>
+		</classref>
+		<classref type="608257511">
+			<f32 name="mFVal0" value="1.2000000477"/>
+			<f32 name="mFVal1" value="1.0000000000"/>
+			<s32 name="mSVal0" value="0"/>
+			<s32 name="mSVal1" value="0"/>
+		</classref>
+		<classref type="608257511">
+			<f32 name="mFVal0" value="0.0000000000"/>
+			<f32 name="mFVal1" value="0.0000000000"/>
+			<s32 name="mSVal0" value="0"/>
+			<s32 name="mSVal1" value="0"/>
+		</classref>
+		<classref type="608257511">
+			<f32 name="mFVal0" value="0.0000000000"/>
+			<f32 name="mFVal1" value="0.0000000000"/>
+			<s32 name="mSVal0" value="0"/>
+			<s32 name="mSVal1" value="0"/>
+		</classref>
+		<classref type="608257511">
+			<f32 name="mFVal0" value="1.7000000477"/>
+			<f32 name="mFVal1" value="1.0000000000"/>
+			<s32 name="mSVal0" value="0"/>
+			<s32 name="mSVal1" value="0"/>
+		</classref>
+	</array>
+</class>

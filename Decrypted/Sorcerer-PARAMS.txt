@@ -1,0 +1,282 @@
+***** SORCERER wan.acr *****
+
+-----------------MAP - TABLE------------
+[name] - [line]
+Magick Attack with enchantements - 20
+Heavy Attack Sorcerer  - 2605
+Magick Attack - Charge  - 2767
+Heavy Attack - Agent - 4747
+Ingle - 4923
+Frazil - 5452
+Levin - 5942
+Comestion - 6174
+Frigor - 7209
+Brontide - 8248
+Grapnel - 10775
+Silentium - 11300
+Blearing - 11472
+Lassitude - 11644
+Anodyne - 11814
+Halidom - 13021
+Fire Boon - 13831
+Thunder Boon - 14660
+Holy Boon - 15085
+Dark Boon - 15503
+Bolide - 15921
+Gicel - 16765
+Fulmination - 18864
+Seism - 20029
+Maelstrom - 20753
+Exequy - 21481
+Petrification - 22656
+Miasma - 22826
+Perdition - 22996
+Sopor - 23166
+Voidspell - 23416
+Spellscreen - 23810 
+Necromancy - 24430
+----------------------------------------
+
+Magick Attack - All with enchantements
+<string value="effect\epv\pl\p_pl_wan"/>
+<string value="sound\se\wep\wan_com\wep_wan_com"/>
+<classref type="1774765177"> (20 line)
+type="322932996"> (visuals?) both types are magic missiles.  
+
+Heavy Attack - SORCERER 
+<string value="sound\se\wep\wan_com\wep_wan_com"/>
+<string value="effect\epv\pl\p_pl_wan"/>
+<classref type="381641"> (2605 line)
+
+Magick Attack - Charge 
+<string value="effect\epv\pl\p_pl_wan"/>
+<string value="sound\se\wep\wan_com\wep_wan_com"/>
+<classref type="322932996"> (2767 line)
+
+Heavy Attack - Agent
+<string value="effect\epv\pl\p_pl_wan"/>
+<string value="sound\se\wep\wan_com\wep_wan_com"/>
+<classref type="1167086731"> (line 4747)
+
+Ingle 
+<string value="effect\epv\pl\p_pl_wan_001"/>
+<string value="sound\se\mgc\mgc_pl_fireball\mgc_pl_fireball"/> 
+<classref type="322932996"> (line 4923)
+Upgrade 1: line: 5094
+Upgrade 2: line: 5265
+
+Frazil
+<string value="effect\epv\pl\p_pl_wan_030"/>
+<string value="sound\se\mgc\mgc_pl_icewalk\mgc_pl_icewalk"/>
+<classref type="303081728"> (line 5452)
+type="1605883267"> 
+Upgrade 1: 5599
+
+Levin
+<string value="effect\epv\pl\p_pl_wan_005"/>
+<string value="sound\se\mgc\mgc_pl_lightning\mgc_pl_lightning"/>
+<classref type="1875285741"> line 5942
+Upgrade 1: line 6014
+Upgrade 2: line 6086
+
+Comestion
+<string value="effect\epv\pl\p_pl_wan_007"/>
+<string value="sound\se\mgc\mgc_pl_firewall\mgc_pl_firewall"/>
+<classref type="748698913"> - 6174
+Upgrade 1: line: 6531
+(2nd 1605883267 is fire + smoke effect + damage in time)
+
+Frigor
+<string value="effect\epv\pl\p_pl_wan_003"/> 
+<string value="sound\se\mgc\mgc_pl_iceblock\mgc_pl_iceblock"/>
+<classref type="1605883267"> line 7209
+Upgrade 1: line: 7420
+Upgrade 2: line: 7815
+
+Brontide
+<string value="effect\epv\pl\p_pl_wan_032"/>
+<string value="sound\se\mgc\mgc_pl_thunderwhip\mgc_pl_thunderwhip"/>
+<string name="modelResPath" value="effect\mod\m_skc_wan032_00\m_skc_wan032_00_00"/> for whip
+<classref type="1661798727"> (line 8248)
+Upgrade 1: line: 9032
+Upgrade 2: line: 9810
+
+--- Mage 
+
+Grapnel
+<string value="effect\epv\pl\p_pl_wan_013"/>
+<string value="sound\se\mgc\mgc_pl_holdchain\mgc_pl_holdchain"/>
+<classref type="1430265942"> (line 10775) 
+Upgrade 1: line: 10961
+
+--- Both 
+
+Silentium
+<string value="effect\epv\pl\p_pl_wan_014"/>
+<string value="sound\se\mgc\mgc_pl_silentcircle\mgc_pl_silentcircle"/>
+<classref type="303081728"> - (line 11300)
+Upgrade 1: line: 11378
+
+Blearing
+<string value="effect\epv\pl\p_pl_wan_015"/>
+<string value="sound\se\mgc\mgc_pl_smokewall\mgc_pl_smokewall"/>
+<classref type="303081728"> (line 11472)
+Upgrade 1: line: 11550
+
+----------- Sorcerer 
+
+Lassitude
+<string value="effect\epv\pl\p_pl_wan_016"/>
+<string value="sound\se\mgc\mgc_pl_slow\mgc_pl_slow"/>
+<classref type="1244791277"> (Type?? line: 11644)
+
+----------- Mage 
+
+Anodyne
+<string value="effect\epv\pl\p_pl_wan_018"/>
+<string value="sound\se\mgc\mgc_pl_healing\mgc_pl_healing"/>
+<classref type="403594317"> (line: 11814)
+Upgrade 1: 12211
+Upgrade 2: 12608
+
+Halidom 
+<string value="effect\epv\pl\p_pl_wan_020"/>
+<string value="sound\se\mgc\mgc_pl_carespot\mgc_pl_carespot"/>
+<classref type="403594317"> 13021
+Upgrade 1: 13418
+
+----------- ENCHANT
+
+Fire Boon
+<string value="effect\epv\pl\p_pl_wan_024"/>
+<string value="sound\se\mgc\mgc_pl_en_fire\mgc_pl_en_fire"/>
+<classref type="761936815"> (line 13831)
+Upgrade 1: line: 13965
+Upgrade 2: line: 14099
+
+Ice Boon
+<string value="effect\epv\pl\p_pl_wan_025"/>
+<string value="sound\se\mgc\mgc_pl_en_ice\mgc_pl_en_ice"/>
+<classref type="761936815"> (line 14249)
+Upgrade 1: line: 14383
+Upgrade 2: line: 14517
+
+Thunder Boon
+<string value="effect\epv\pl\p_pl_wan_026"/>
+<string value="sound\se\mgc\mgc_pl_en_thunder\mgc_pl_en_thunder"/>
+<classref type="761936815"> (line 14667)
+Upgrade 1: line: 14801
+Upgrade 2: line: 14935
+
+Holy Boon 
+<string value="effect\epv\pl\p_pl_wan_022"/>
+<string value="sound\se\mgc\mgc_pl_en_holy\mgc_pl_en_holy"/>
+<classref type="761936815"> (line 15085)
+Upgrade 1: line: 15219
+Upgrade 2: line: 15353
+
+Dark Boon 
+<string value="effect\epv\pl\p_pl_wan_023"/>
+<string value="sound\se\mgc\mgc_pl_en_dark\mgc_pl_en_dark"/>
+<classref type="761936815"> (line 15503)
+Upgrade 1: line: 15637
+Upgrade 2: line: 15771
+
+------ Sorcerer 
+
+Bolide
+<string value="effect\epv\pl\p_pl_wan_028"/>
+<string value="sound\se\mgc\mgc_pl_meteor\mgc_pl_meteor"/>
+<classref type="656387277"> (line 15921)
+Upgrade 1: line: 16174
+Upgrade 2: line: 16496
+
+Gicel
+<string value="effect\epv\pl\p_pl_wan_009"/>
+<string value="sound\se\mgc\mgc_pl_icemissle\mgc_pl_icemissle"/>
+<classref type="1723301930"> (line 16765)
+Upgrade 1: line: 17257
+Upgrade 2: line: 17909
+
+Fulmination
+<string value="effect\epv\pl\p_pl_wan_011"/>
+<string value="sound\se\mgc\mgc_pl_thunderspark\mgc_pl_thunderspark"/>
+<classref type="1848871776"> (line 18864)
+
+Seism
+<string value="effect\epv\pl\p_pl_wan_036"/>
+<string value="sound\se\mgc\mgc_pl_earthshake\mgc_pl_earthshake"/>
+<classref type="1723301930"> (line 20029)
+Upgrade 1: line: 20221
+Upgrade 2: line: 20457
+
+Maelstrom
+<string value="effect\epv\pl\p_pl_wan_037"/>
+<string value="sound\se\mgc\mgc_pl_tornado\mgc_pl_tornado"/>
+<classref type="1723301930"> (line 20753)
+Upgrade 1: line: 21028
+
+Exequy
+<string value="effect\epv\pl\p_pl_wan_039"/>
+<string value="sound\se\mgc\mgc_pl_deathcircle\mgc_pl_deathcircle"/>
+<classref type="774173229"> (line 21481)
+Upgrade 1: line: 22535
+
+Petrification
+<string value="effect\epv\pl\p_pl_wan_041"/>
+<string value="sound\se\mgc\mgc_pl_stone\mgc_pl_stone"/>
+<classref type="1244791277"> (line 22656)
+Upgrade 1: line: 22733
+
+Miasma
+<string value="effect\epv\pl\p_pl_wan_042"/>
+<string value="sound\se\mgc\mgc_pl_poisonpond\mgc_pl_poisonpond"/>
+<classref type="1244791277"> (line 22826)
+Upgrade 1: line: 22903
+
+----------- MA & MK 
+
+Perdition (YOU HAVE TO CHANGE BOTH FILES SAME FOR THIS SKILL)
+<string value="effect\epv\pl\p_pl_wan_043"/>
+<string value="sound\se\mgc\mgc_pl_spoillake\mgc_pl_spoillake"/>
+<classref type="1244791277"> (line 22996)
+Upgrade 1: line: 23073
+
+Sopor (YOU HAVE TO CHANGE BOTH FILES SAME FOR THIS SKILL)
+<string value="effect\epv\pl\p_pl_wan_045"/>
+<string value="sound\se\mgc\mgc_pl_sleep\mgc_pl_sleep"/>
+<classref type="303081728"> (line 23166)
+Upgrade 1: line: 23244
+Upgrade 2: line: 23322
+
+----------- Sorcerer 
+
+Voidspell
+<string value="effect\epv\pl\p_pl_wan_048"/>
+<string value="sound\se\mgc\mgc_pl_dispellmagic\mgc_pl_dispellmagic"/>
+<classref type="1244791277"> (line 23416)
+Upgrade 1: line: 23605
+
+----------- Mage 
+
+Spellscreen
+<string value="effect\epv\pl\p_pl_wan_049"/>
+<string value="sound\se\mgc\mgc_pl_magicshell\mgc_pl_magicshell"/>
+<classref type="303081728"> (line: 23810)
+Upgrade 1: line: 24112
+
+----------- Sorcerer 
+
+Necromancy
+<string value="effect\epv\pl\p_pl_wan_057"/>
+<string value="sound\se\mgc\mgc_pl_phantom\mgc_pl_phantom"/>
+<classref type="1904073546"> (line 24430)
+Upgrade 1: line: 24877
+
+-----------------------------------
+Pre-last 2 Below are empty
+Last contains controls classes.
+-----------------------------------------
+by iomatix - 2019 
+https://www.nexusmods.com/users/67232281 For 
+https://www.nexusmods.com/dragonsdogma/mods/471
