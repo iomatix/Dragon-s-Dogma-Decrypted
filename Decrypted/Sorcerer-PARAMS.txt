@@ -1,4 +1,4 @@
-***** SORCERER wan.acr *****
+***** SORCERER wan.arc *****
 
 -----------------MAP - TABLE------------
 [name] - [line]

@@ -1,4 +1,4 @@
-﻿***** Mace mac.acr *****
+﻿***** Mace mac.arc *****
 
 -----------------MAP - TABLE------------
 [name] - [line]

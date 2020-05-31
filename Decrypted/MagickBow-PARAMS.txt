@@ -1,4 +1,4 @@
-***** MAGIC ARCHER mbw.acr *****
+***** MAGIC ARCHER mbw.arc *****
 
 -----------------MAP - TABLE------------
 [name] - [line]

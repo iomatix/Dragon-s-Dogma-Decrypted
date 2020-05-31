@@ -1,4 +1,4 @@
-***** MAGE & MK & MA stk.acr *****
+***** MAGE & MK & MA stk.arc *****
 
 -----------------MAP - TABLE------------
 [name] - [line]

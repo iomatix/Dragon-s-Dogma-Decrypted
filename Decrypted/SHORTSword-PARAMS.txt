@@ -1,4 +1,4 @@
-﻿***** Sword swd.acr *****
+﻿***** Sword swd.arc *****
 
 -----------------MAP - TABLE------------
 [name] - [line]
