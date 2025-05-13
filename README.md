@@ -7,8 +7,8 @@ Please do not forget to credit the author if you use the information shared here
 
 ## Contributors
 
-<a href="https://github.com/iomatix/Dragon-s-Dogma-Decrypted//graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=iomatix/Dragon-s-Dogma-Decrypted/" />
+<a href="https://github.com/iomatix/Dragon-s-Dogma-Decrypted/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=iomatix/Dragon-s-Dogma-Decrypted" />
 </a>
 
 ### [Dragon's Oath Combat System Evolved](https://www.nexusmods.com/dragonsdogma/mods/471)
